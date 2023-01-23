@@ -1,7 +1,5 @@
 const mongoose = require("mongoose")
 
-uri = "mongodb+srv://hmwork:hmwork@cluster0.rxhhvje.mongodb.net/?retryWrites=true&w=majority"
-
 const connect = ()=>{
     mongoose.set('strictQuery', false)
 
